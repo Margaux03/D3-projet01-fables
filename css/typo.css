@@ -1,0 +1,86 @@
+/* Polices utilisés dans le header */
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black&display=swap');
+/* Polices utilisés dans fable01 */
+@import url('https://fonts.googleapis.com/css?family=Schoolbell&display=swap');
+
+
+
+
+header {
+  font-family: 'Archivo Black', sans-serif;
+}
+
+header h1 {
+  font-size: 4.25em;
+  text-align: center;
+}
+
+header p {
+  font-size: 2em;
+}
+
+/* Styles partagés par tous les éléments ayant la même class */
+
+.fable-moral {
+  font-size: 3.052em;
+  margin: 2.75rem 0 1rem;
+}
+/* Styles utilisés dans fable01 */
+
+#fable01 {
+  font-family: 'Schoolbell', cursive;
+}
+
+#fable01 h2 {
+  font-size: 3.052em;
+  margin: 3rem 0 4,5rem 0;
+  font-family: 'Schoolbell', cursive;
+  font-weight: 800;
+  line-height: 3;
+  color: #ff4c00;
+
+}
+
+#fable01 p {
+  margin-bottom: 1.25em;
+  color: #c5cce6;
+
+}
+
+#fable01 .fable-moral {
+    font-family: 'Schoolbell', cursive;
+    text-align: right;
+}
+
+
+/* Styles utilisés dans fable02 */
+
+#fable02 {
+  font-family: 'Vidaloka', serif;
+  color: pink;
+}
+
+#fable02 h2 {
+  font-family: 'Vidaloka', serif;
+  font-size: 8em;
+
+}
+
+#fable02 {
+
+}
+
+/* Styles utilisés dans fable03 */
+
+#fable03 {
+  font-family: 'Space Mono', monospace;
+}
+
+#fable03 h2 {
+  font-family: 'BioRhyme', serif;
+  margin: 0;
+  font-size: 12em;
+  line-height: 0.75;
+  text-align: center;
+  color: red;
+}

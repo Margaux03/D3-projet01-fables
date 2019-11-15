@@ -1,0 +1,98 @@
+body {
+  margin : 0;
+}
+
+header {
+  min-height: 100vh;
+  padding: 1em;
+  background-color: #ed1607;
+  color: white;
+/* display en flexbox pour centrer */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+    min-height: 100vh;
+}
+/* Styles utilisés dans fable01 */
+
+#fable01 {
+  min-height: 60vh;
+  background: #c5cce6;
+  overflow: hidden;
+  padding: 6px;
+}
+
+#fable01 .main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#fable01 .text-content {
+  background: #ff4c00;
+  padding: 42px;
+  margin: 6px;
+/*  max-width: 620px; */
+  flex-basis: 420px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+#fable01 figure {
+/*  max-width: 620px; */
+  flex-basis: 420px;
+  flex-shrink: 1;
+  flex-grow: 1;
+  margin: 6px;
+}
+
+#fable01 figure img {
+  width : 100%;
+  border : 4px solid #000;
+}
+
+/* Styles utilisés dans fable02 */
+
+#fable02 {
+  min-height: 60vh;
+  background: #6b7b00 url('images/dessin-enfant.png') top center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  padding: 42px;
+}
+
+#fable02 .text-content {
+  background: #1a3c0b;
+  padding: 42px;
+  margin-top : 0;
+  margin-right : auto;
+  margin-bottom : 0;
+  margin-left : auto;
+
+  max-width: 620px;
+}
+/* Styles utilisés dans fable03 */
+
+#fable03 {
+  overflow: hidden;
+  background: #efefef url('images/damier.jpg');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#fable03 .main-content {
+    max-width: 480px;
+}
+
+#fable03 p {
+  background: #000;
+  color: #fff;
+  padding: 8vw;
+  border-radius: 12px;
+}
